@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Mariia Tsapina 
+=======
+Mariia.Tsapina
+>>>>>>> 2ae8cc7471efa566dbc66677e7565ca4b16fa7f2
