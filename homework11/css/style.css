@@ -12,6 +12,7 @@ text-shadow: 1px 1px 2px black, 0 0 3em red;
    }
 
 .rightpic { float: right; /* Выравнивание по правому краю */
- margin: 0 0 5px 5px; /* Отступы вокруг фотографии */ }
-
-
+ margin: 0 0 10px 10px; /* Отступы вокруг фотографии */ }
+}
+.leftpic { float: left;
+margin: 10px 10px 0 0  } 
