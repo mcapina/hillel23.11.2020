@@ -1,3 +1,5 @@
+'use strict';
+
 /*Даны переменные a и b. Проверьте, что a делится без остатка на b.
 Если это так - выведите 'Делится'и результат деления,
 иначе выведите 'Делится с остатком' и остаток от деления. Решение реализовать в виде функции
@@ -15,7 +17,7 @@ function getRemainder(a, b){
 	}
 }
 
-getRemainder(a = 16, b = 5)
+getRemainder(16, 5)
 
 
 
@@ -36,13 +38,25 @@ getRemainder(a = 16, b = 5)
 //----------------------------
 
 
-function drawTriangle(h, sym){
+/*function drawTriangle(h, sym){
 	for(let i = 0; i < h+1; i++){
 		console.log(sym.repeat(i))
 	}
 }
 
-drawTriangle(7, '*')
+drawTriangle(7, '+')
+*/
+
+function drawTriangle1(height, symbol) {
+  var repeatSymbol = '';
+  var i = 0;
+  while (height > 0) {
+    repeatSymbol += symbol;
+    height--;
+    console.log(repeatSymbol);
+  }
+}
+drawTriangle1(10, '&');
 
 
 
@@ -64,14 +78,25 @@ for(var x = 0; x < 100; x++){
 деления не станет меньше 50. Какое число получится?
 Посчитайте количество итераций, необходимых для этого.*/
 
-
-var aNumber = 1000
+/*1-вариант*/
+/*var aNumber = 1000
 
 for(i = 1;;i++){
 	if (aNumber > 50){	
 	    aNumber = aNumber/2;
 	    continue;
     }
-    console.log('Получается число: '+ aNumber + '. Для того, чтобы такой результат получить, надо было ' + i + ' раз поделить на 2')
+    console.log('Получается число: '+ aNumber + '. Для того, чтобы такой результат получить, надо было ' + i + ' раз делить на 2')
 	break;
+}*/
+
+/*2-вариант*/
+
+var num1000 = 1000;
+var iterator = 1;
+do {
+    num1000 = num1000/2;
+    iterator++;
 }
+while (num1000 > 50);
+console.log('Получается число: '+ num1000 + '. Для того, чтобы такой результат получить, надо было ' + iterator + ' раз делить на 2');
