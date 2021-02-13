@@ -1,0 +1,79 @@
+body {
+	background-image: url("image1.jpg");
+
+	background-size: cover;
+
+	font-size: 20px;
+
+	background-position:center 100px;
+
+	background-size: cover;
+
+    line-height: 1.5;
+
+    line-height: 1.70;
+
+
+   }
+
+#first{
+	Color:white;
+	Font-style: normal;
+}
+
+.maintext {
+ color: white; 
+ Font-style: italic;
+	}
+
+	.second {
+ color: red; 
+ Font-style: italic;
+	}
+
+	.an {
+ color: purple; 
+ Font-style: italic;
+	}
+
+	.bas {
+ color: purple; 
+ Font-style: italic;
+	}
+
+	.isid {
+ color: purple; 
+ Font-style: italic;
+	}
+
+	.osir {
+ color: purple; 
+ Font-style: italic;
+	}
+
+	.ra {
+ color: purple; 
+ Font-style: italic;
+	}
+
+	.gor {
+ color: purple; 
+ Font-style: italic;
+	}
+
+	.wiki {
+ color: white; 
+ Font-style: italic;
+	}
+
+	#gender {
+ color: white; 
+ Font-style: italic;
+  font-weight: bold;
+	}
+
+	#change {
+ color: purple; 
+ Font-style: italic;
+ font-weight: bold;
+	}
