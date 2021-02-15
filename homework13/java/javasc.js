@@ -28,10 +28,15 @@ myDelenie(23,2)
 ****
 ******
 */
-
-
-
-
+/*function myTreugolnik(a,b){
+  			let b = "";
+  			for(var i = 1; i <= a; i++){
+    		var c = b + "";
+    		console.log(c)}
+  			}
+			
+myTreugolnik(7,"t")
+*/
 
 
 
