@@ -7,8 +7,8 @@
 function myDelenie(a,b) {
 	let c = (a/b);
 	var d = +(a%b);
-	if  (c != 0 ) {console.log("делится " +c);}
-		else  (d => 0);
+	console.log("делится " +c);
+		if  (d => 0);
 			{console.log("делится с остатком  " +d);}
 }
 myDelenie(23,2);
@@ -26,12 +26,11 @@ myDelenie(23,2);
 ******
 */
 
-function myTr(height, b) {
+function myTr(c, b) {
   var a = "";
-  var i = 0;
-  while (height > 0) {
+  while (c > 0) {
     a += b;
-    height--;
+    c--;
     console.log(a);
   }
 }
