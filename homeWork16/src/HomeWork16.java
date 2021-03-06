@@ -21,7 +21,7 @@ public class HomeWork16 {
 
         int multiplierFirst = 3;
 
-        for(int multiplierSecond = 0; multiplierSecond <= 10; multiplierSecond++){
+        for(int multiplierSecond = 0; multiplierSecond <= 9; multiplierSecond++){
             int multiplierResult = multiplierFirst * multiplierSecond;
             System.out.println(multiplierFirst + " * "+ multiplierSecond + " = " + multiplierResult);
 
@@ -33,7 +33,7 @@ public class HomeWork16 {
         Написать двумя способами. If и switch.*/
 
         System.out.println("");
-        System.out.println("\"Задание №2. Способ if:\"");
+        System.out.println("\"Задание №3. Способ if:\"");
 
             System.out.println("Введите число 1, 2 или 3: ");
             Scanner inputFigure = new Scanner(System.in);
@@ -50,7 +50,7 @@ public class HomeWork16 {
 
 
         System.out.println("");
-        System.out.println("\"Задание №2. Способ switch:\"");
+        System.out.println("\"Задание №3. Способ switch:\"");
 
             System.out.println("Введите число 1, 2 или 3: ");
             Scanner inputFigureSwitch = new Scanner(System.in);
@@ -70,8 +70,20 @@ public class HomeWork16 {
                     System.out.println("Вы ввели невероное число, допустимые числа: 1, 2, 3");
             }
 
+        // Найти среднее значение суммы чисел от 1 до 100
+        System.out.println();
+        System.out.println("Задание №4. Найти среднее значение суммы чисел от 1 до 100.");
+        System.out.println();
 
+        double summa = 0;
+        for (double number = 0; number <= 100; number++){
+            summa = summa + number;
+        }
 
+        double averageNumber;
+        averageNumber = summa / 100;
+
+        System.out.println("Результат: " + averageNumber);
 
 
     }
